@@ -37,7 +37,8 @@ a {
   color: #ff9900;
 }
 
-p {
+p,
+#footer {
   color: #7d7987;
 
   font-size: 14px;
@@ -48,6 +49,19 @@ p {
   margin-left: 28px;
 }
 
-/* #balls {
- 
-} */
+#footer {
+  margin-bottom: 13px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+  border: 1px solid #eceff2;
+  margin: 0 auto 8px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
